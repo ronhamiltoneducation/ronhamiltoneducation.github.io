@@ -76,3 +76,30 @@
 .achievement-copy h3{font-family:Georgia,serif;font-size:clamp(1.8rem,3vw,2.7rem);font-weight:400;color:var(--navy);line-height:1.16;margin:14px 0}
 .achievement-copy p:last-child{color:#596675;max-width:530px}
 @media(max-width:750px){.achievement-layout{grid-template-columns:1fr;gap:22px}.achievement-copy{padding-left:20px}}
+
+
+/* Curated learning chapters | October 2026 */
+.curated-chapter{margin-top:58px;padding-top:43px;border-top:1px solid #d5d3cd}
+.curated-heading{display:flex;align-items:end;justify-content:space-between;gap:36px;margin-bottom:28px}
+.curated-heading h3{color:var(--navy);font:400 clamp(1.9rem,3.4vw,3.25rem)/1.15 Georgia,serif;letter-spacing:-.027em;margin:10px 0 0;max-width:590px}
+.curated-heading>p{max-width:365px;font-size:.93rem;line-height:1.65;color:#697583;margin:0 0 4px}
+.curated-kicker{font-size:.69rem;letter-spacing:.18em;font-weight:700;text-transform:uppercase;color:#a0814a}
+.curated-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-items:start}
+.curated-card{min-width:0;overflow:visible;background:transparent}
+.curated-card>a{display:block;height:220px;overflow:hidden;background:#d8d6d0;border-radius:3px}
+.curated-card>a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.curated-card img{height:100%;width:100%;object-fit:cover;transition:transform .22s ease}
+.curated-card:hover img{transform:scale(1.025)}
+.curated-card figcaption{position:static;background:none;text-shadow:none;color:var(--navy);padding:13px 1px 5px;font-size:.94rem;font-weight:400;line-height:1.45}
+.curated-card figcaption strong{display:block;font:400 1.2rem/1.28 Georgia,serif;color:var(--navy);margin-bottom:5px}
+.curated-card figcaption span{display:block;color:#687482;font-size:.85rem;max-width:340px}
+.dark .curated-chapter{border-color:#516178}.dark .curated-heading h3,.dark .curated-card figcaption strong{color:#f5f2ec}
+.dark .curated-heading>p,.dark .curated-card figcaption span{color:#b9c5d1}
+.dark .curated-card figcaption{color:#fff}
+.intro .curated-chapter{margin-top:55px}
+.pupil-voice-intro{font:400 1.24rem/1.5 Georgia,serif;color:#29415a;max-width:780px;margin:0 0 10px}
+.pupil-voice-section .curated-card>a{height:275px;background:#faf9f6;border:1px solid #e0ddd6}
+.pupil-voice-section .curated-card img{object-fit:contain}
+@media(max-width:850px){.curated-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.curated-heading{display:block}.curated-heading>p{margin:15px 0 0;max-width:590px}.achievement-layout{grid-template-columns:1fr;gap:20px}.achievement-copy{padding-left:20px}}
+@media(max-width:540px){.curated-grid{grid-template-columns:1fr}.curated-card>a{height:auto;aspect-ratio:4/3}.curated-card img{object-position:center}.pupil-voice-section .curated-card>a{height:auto;aspect-ratio:4/3}.curated-chapter{margin-top:44px;padding-top:33px}.curated-heading h3{font-size:2.05rem}.site-header nav{row-gap:8px;column-gap:12px}.site-header nav a{font-size:.66rem}}
+@media(prefers-reduced-motion:reduce){.curated-card img{transition:none}}
