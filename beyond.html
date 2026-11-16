@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
-<meta content="A look beyond the classroom: adventure, team sport, mountain travel, dogs, and the experiences that shape Ron Hamilton's approach to education." name="description"/>
+<meta content="A look beyond the classroom: adventure, team sport, coffee roasting, mountain travel, dogs, and the experiences that shape Ron Hamilton's approach to education." name="description"/>
 <title>Beyond the Classroom | Ron Hamilton</title>
 <style>
 :root{--navy:#10233f;--navy-2:#182f50;--ink:#1f2937;--muted:#667085;--paper:#f7f5ef;--warm:#eee8dc;--gold:#b49557;--line:#d8d4ca;--white:#fff;--max:1180px}
@@ -76,6 +76,21 @@ h2 em{color:#9d834d}
 .sport-chapter .panoramic .image-button{height:390px}
 .sport-chapter .panoramic img{object-position:center 44%}
 .sport-chapter .panoramic figcaption{padding:24px 28px}
+.coffee-chapter{background:linear-gradient(135deg,#12263b,#203d51);color:#fff}
+.coffee-chapter .section-marker{color:#dfc58e}
+.coffee-chapter .section-marker:after{background:#6d7d88}
+.coffee-chapter .section-marker span{color:#adb9c5}
+.coffee-chapter h2{color:#fff}
+.coffee-chapter h2 em{color:#dfc58e}
+.coffee-chapter .chapter-head p{color:#ccd6df}
+.coffee-content{display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:stretch}
+.coffee-copy{font-size:1.025rem;line-height:1.85;color:#d0d9e1}
+.coffee-copy p:first-child{margin-top:0}
+.coffee-panel{border:1px solid #b4955780;background:#ffffff0c;padding:36px;display:flex;flex-direction:column;justify-content:center}
+.coffee-panel .eyebrow{margin:0 0 22px}
+.coffee-panel blockquote{font-family:Georgia,serif;font-size:clamp(1.55rem,2.5vw,2.2rem);line-height:1.27;margin:0 0 20px;color:#fff}
+.coffee-panel p:not(.eyebrow){color:#cbd6df;font-size:.94rem;line-height:1.8;margin:0}
+.coffee-panel .coffee-signoff{margin-top:28px!important;color:#e1c88f!important;letter-spacing:.06em;text-transform:uppercase;font-size:.7rem!important;font-weight:750}
 .personality-grid{display:grid;grid-template-columns:1.05fr 1fr .6fr;gap:18px;align-items:start}
 .personality-grid .image-button{height:300px}
 .personality-grid .ski img{object-position:center center}
@@ -96,7 +111,9 @@ footer a{text-decoration:none;color:#d8c392}
 .lightbox p{text-align:center;margin:10px auto;font-family:Georgia,serif;font-size:1.1rem}
 .lightbox-close{position:absolute;right:28px;top:12px;cursor:pointer;background:transparent;border:0;color:#fff;font-size:2.7rem;line-height:1}
 @media(max-width:1100px){nav{gap:16px}.hero-copy{padding-left:36px}.page-hero{grid-template-columns:1fr 45%}h1{font-size:clamp(4rem,6.4vw,6.5rem)}}
+@media(max-width:820px){.coffee-content{grid-template-columns:1fr}}
 @media(max-width:820px){nav{display:none}.home-link{display:block}.page-hero{grid-template-columns:1fr;min-height:0}.hero-copy{padding:145px 28px 76px}.hero-visual{height:430px;min-height:0}.hero-index{display:none}.intro-layout,.chapter-head{grid-template-columns:1fr;gap:35px}.adventure-grid{grid-template-rows:300px 180px}.personality-grid{grid-template-columns:1fr 1fr}.personality-grid .banana{grid-column:span 2}.personality-grid .banana .image-button{height:240px}.personality-grid .banana img{object-fit:contain;background:#12303e}.section-wrap{padding:80px 28px}}
+@media(max-width:560px){.coffee-panel{padding:25px}}
 @media(max-width:560px){.header-inner{padding:22px 22px}.hero-copy{padding:125px 24px 62px}h1{font-size:clamp(3.6rem,14vw,5rem)}.hero-visual{height:320px}.image-credit{right:20px;bottom:22px}.section-wrap{padding:68px 20px}.section-marker{margin-bottom:28px}h2{font-size:clamp(2.6rem,11vw,3.9rem)}.intro-layout{gap:25px}.portrait-row{margin-top:26px}.adventure-grid{display:grid;grid-template-columns:1fr;grid-template-rows:auto}.adventure-grid .tall,.adventure-grid .square{grid-row:auto}.adventure-grid .tall .image-button{height:360px;flex:auto}.adventure-grid .square .image-button{height:280px;flex:auto}.adventure-grid .editorial-note{min-height:170px}.sport-chapter .panoramic .image-button{height:235px}.personality-grid{grid-template-columns:1fr}.personality-grid .banana{grid-column:span 1}.personality-grid .image-button{height:290px}.closing{padding:78px 22px}footer{display:block}footer a{display:block;margin-top:8px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
 
@@ -132,7 +149,7 @@ footer a{text-decoration:none;color:#d8c392}
 <img alt="A lone hiker resting in a dramatic, snow-covered mountain valley" data-photo="assets/mountain-landscape.webp" fetchpriority="high" height="1921" src="data:," width="1373"/>
 <div class="image-credit">Always looking for the next horizon</div>
 </div>
-<span aria-hidden="true" class="hero-index">01 / 04</span>
+<span aria-hidden="true" class="hero-index">01 / 05</span>
 </section>
 <section class="intro section-wrap" id="my-story">
 <div class="section-marker">A little more about me <span>01</span></div>
@@ -187,9 +204,30 @@ footer a{text-decoration:none;color:#d8c392}
 <figcaption><span>Beyond the final whistle</span><strong>Teamwork, friendships and shared effort.</strong></figcaption>
 </figure>
 </section>
+<section class="chapter coffee-chapter" id="coffee">
+<div class="section-wrap">
+<div class="section-marker">Coffee, craft &amp; curiosity <span>04</span></div>
+<div class="chapter-head">
+<h2>Good coffee.<br/><em>Good company.</em></h2>
+<p>I've become fascinated by everything behind a great cup of coffee—from the craft of roasting to the people and places where each bean begins its journey.</p>
+</div>
+<div class="coffee-content">
+<div class="coffee-copy">
+<p>Helping lead a student service-learning expedition to Tanzania, including community projects and microfinance work, made me think more deeply about ethical enterprise and the stories behind everyday products. That experience helped inspire me to start <strong>Beans &amp; Bones Coffee Roasters</strong>, my own small-batch coffee venture in Switzerland.</p>
+<p>Roasting is an absorbing mix of science, creativity and patience. I enjoy learning about coffee origins, processing and the challenges of responsible sourcing, then experimenting with and refining each roast. Just as importantly, I love how coffee creates opportunities for conversation, hospitality and community.</p>
+</div>
+<aside class="coffee-panel" aria-label="What coffee roasting brings to education">
+<p class="eyebrow">More than a morning ritual</p>
+<blockquote>Curiosity becomes more meaningful when you turn it into something you can share.</blockquote>
+<p>Building a small business has reinforced my belief in hands-on learning: asking better questions, solving problems, listening to feedback and understanding the people behind what we create.</p>
+<p class="coffee-signoff">Beans &amp; Bones · Small-batch coffee roasting</p>
+</aside>
+</div>
+</div>
+</section>
 <section class="chapter personality-chapter" id="life-and-laughter">
 <div class="section-wrap">
-<div class="section-marker">The lighter side <span>04</span></div>
+<div class="section-marker">The lighter side <span>05</span></div>
 <div class="chapter-head"><h2>Dogs, fresh air<br/><em>&amp; a sense of humour.</em></h2><p>Outside school, you'll often find me exploring with my dogs. And yes, occasionally doing something completely ridiculous. I think a bit of humour goes a long way.</p></div>
 <div class="personality-grid">
 <figure class="gallery-card ski">
