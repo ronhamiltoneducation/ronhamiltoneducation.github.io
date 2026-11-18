@@ -164,6 +164,58 @@ footer a{text-decoration:none;color:#d8c392}
 @media(max-width:690px){.rugby-lead-layout{grid-template-columns:1fr}.rugby-lead-photo a{height:280px}.rugby-principles{grid-template-columns:1fr 1fr;gap:24px}.rugby-touch{padding:18px}.rugby-gallery-title{display:block}.rugby-gallery-title p{margin-top:12px}.rugby-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.rugby-photo-grid figure a,.rugby-photo-grid figure.rugby-wide a{height:160px}}
 @media(max-width:420px){.rugby-principles{grid-template-columns:1fr}.rugby-photo-grid{grid-template-columns:1fr}.rugby-photo-grid figure.rugby-wide{grid-column:span 1}}
 
+
+/* Rugby photo essay: large, uncropped photographs at their original proportions. */
+.rugby-photo-grid{
+  display:block;
+  columns:2 440px;
+  column-gap:28px;
+}
+.rugby-photo-grid figure{
+  display:inline-block;
+  width:100%;
+  margin:0 0 28px;
+  break-inside:avoid;
+  -webkit-column-break-inside:avoid;
+  vertical-align:top;
+}
+.rugby-photo-grid figure.rugby-wide{
+  display:block;
+  column-span:all;
+  -webkit-column-span:all;
+  width:100%;
+  margin-bottom:34px;
+}
+.rugby-photo-grid figure a,
+.rugby-photo-grid figure.rugby-wide a{
+  display:block;
+  width:100%;
+  height:auto;
+  overflow:visible;
+  background:transparent;
+}
+.rugby-chapter .rugby-photo-grid figure img,
+.rugby-chapter .rugby-photo-grid figure.rugby-wide img{
+  display:block;
+  width:100%;
+  height:auto;
+  max-height:none;
+  object-fit:contain;
+  transform:none;
+}
+.rugby-chapter .rugby-photo-grid figure a:hover img{transform:none}
+.rugby-photo-grid figcaption{
+  padding:16px 20px;
+  font-size:.89rem;
+  background:#f7f5ef;
+  color:#43566a;
+}
+@media(max-width:760px){
+  .rugby-photo-grid{columns:1}
+  .rugby-photo-grid figure,
+  .rugby-photo-grid figure.rugby-wide{margin-bottom:24px}
+}
+
 </style>
 </head>
 <body>
@@ -281,7 +333,7 @@ footer a{text-decoration:none;color:#d8c392}
       <p>Coaching gives pupils opportunities to find their voice, cope with setbacks, support one another and feel that they belong. Those lessons carry far beyond the pitch.</p>
     </div>
   </div>
-  <div class="rugby-gallery-title">
+  <div class="rugby-gallery-title" id="rugby-gallery">
     <h3>Different places. <em>The same spirit.</em></h3>
     <p>More than matches and memories, rugby has given me a way to arrive somewhere new, find a community and contribute.</p>
   </div>
