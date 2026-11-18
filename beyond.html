@@ -128,6 +128,42 @@ footer a{text-decoration:none;color:#d8c392}
 @media(max-width:560px){.header-inner{padding:22px 22px}.hero-copy{padding:125px 24px 62px}h1{font-size:clamp(3.6rem,14vw,5rem)}.hero-visual{height:320px}.image-credit{right:20px;bottom:22px}.section-wrap{padding:68px 20px}.section-marker{margin-bottom:28px}h2{font-size:clamp(2.6rem,11vw,3.9rem)}.intro-layout{gap:25px}.portrait-row{margin-top:26px}.adventure-grid{display:grid;grid-template-columns:1fr;grid-template-rows:auto}.adventure-grid .tall,.adventure-grid .square{grid-row:auto}.adventure-grid .tall .image-button{height:360px;flex:auto}.adventure-grid .square .image-button{height:280px;flex:auto}.adventure-grid .editorial-note{min-height:170px}.sport-chapter .panoramic .image-button{height:235px}.personality-grid{grid-template-columns:1fr}.personality-grid .banana{grid-column:span 1}.personality-grid .image-button{height:290px}.closing{padding:78px 22px}footer{display:block}footer a{display:block;margin-top:8px}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important}}
 
+/* Rugby now lives within Beyond the Classroom. */
+.rugby-chapter{background:#fff}
+.rugby-lead-layout{display:grid;grid-template-columns:1fr .95fr;gap:38px;align-items:start}
+.rugby-story-text{font-size:1rem;color:#586675;line-height:1.85}
+.rugby-story-text p{margin:0 0 17px}
+.rugby-story-text .rugby-opening{font:400 clamp(1.35rem,2.1vw,1.9rem)/1.4 Georgia,serif;color:var(--navy)}
+.rugby-chapter figure{margin:0;min-width:0}
+.rugby-chapter figure a{display:block;overflow:hidden;background:#112741}
+.rugby-chapter figure a:focus-visible{outline:3px solid #b49557;outline-offset:3px}
+.rugby-chapter figure img{width:100%;height:100%;object-fit:cover;transition:transform .25s}
+.rugby-chapter figure a:hover img{transform:scale(1.025)}
+.rugby-chapter figcaption{background:#f7f5ef;padding:12px 16px;font-size:.77rem;letter-spacing:.035em;color:#526074}
+.rugby-lead-photo a{height:340px}
+.rugby-principles{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:17px;margin:42px 0 66px}
+.rugby-principles>div{border-top:2px solid var(--gold);padding-top:17px}
+.rugby-principles span,.rugby-eyebrow{font-size:.7rem;font-weight:750;color:#8e703f;letter-spacing:.12em;text-transform:uppercase}
+.rugby-principles h3{font:400 1.4rem/1.25 Georgia,serif;color:var(--navy);margin:9px 0 8px}
+.rugby-principles p{font-size:.89rem;line-height:1.7;color:#596879;margin:0}
+.rugby-touch{display:grid;grid-template-columns:.88fr 1.12fr;gap:45px;align-items:center;background:#f7f5ef;padding:28px}
+.rugby-touch figure a{height:430px}
+.rugby-touch figure figcaption{background:#fff}
+.rugby-touch h3,.rugby-gallery-title h3{font:400 clamp(2rem,3.6vw,3.3rem)/1.15 Georgia,serif;letter-spacing:-.03em;color:var(--navy);margin:14px 0 18px}
+.rugby-touch h3 em,.rugby-gallery-title h3 em{color:#9d834d;font-weight:400}
+.rugby-touch p{color:#586675;line-height:1.8;margin:0 0 15px;font-size:.94rem}
+.rugby-gallery-title{display:flex;align-items:end;justify-content:space-between;gap:35px;margin:70px 0 24px}
+.rugby-gallery-title h3{margin:0}
+.rugby-gallery-title p{margin:0;max-width:400px;color:#586675;line-height:1.7}
+.rugby-photo-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.rugby-photo-grid figure a{height:190px}
+.rugby-photo-grid figure.rugby-wide{grid-column:span 2}
+.rugby-photo-grid figure.rugby-wide a{height:190px}
+.rugby-closing-thought{font:400 clamp(1.45rem,2.6vw,2.1rem)/1.4 Georgia,serif;color:var(--navy);border-left:3px solid var(--gold);padding-left:24px;max-width:900px;margin:58px 0 0}
+@media(max-width:950px){.rugby-principles{grid-template-columns:repeat(2,minmax(0,1fr))}.rugby-touch{grid-template-columns:1fr}.rugby-touch figure a{height:370px}}
+@media(max-width:690px){.rugby-lead-layout{grid-template-columns:1fr}.rugby-lead-photo a{height:280px}.rugby-principles{grid-template-columns:1fr 1fr;gap:24px}.rugby-touch{padding:18px}.rugby-gallery-title{display:block}.rugby-gallery-title p{margin-top:12px}.rugby-photo-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.rugby-photo-grid figure a,.rugby-photo-grid figure.rugby-wide a{height:160px}}
+@media(max-width:420px){.rugby-principles{grid-template-columns:1fr}.rugby-photo-grid{grid-template-columns:1fr}.rugby-photo-grid figure.rugby-wide{grid-column:span 1}}
+
 </style>
 </head>
 <body>
@@ -141,7 +177,7 @@ footer a{text-decoration:none;color:#d8c392}
 <a href="index.html#experience">Experience</a>
 <a href="portfolio.html">Teaching Portfolio</a>
 <a aria-current="page" class="current" href="beyond.html">Beyond the Classroom</a>
-<a href="rugby.html">Rugby</a>
+
 <a href="index.html#contact">Contact</a>
 </nav>
 <a class="home-link" href="index.html">← Back to portfolio</a>
@@ -154,6 +190,7 @@ footer a{text-decoration:none;color:#d8c392}
 <h1 id="page-title">Beyond the<br/><em>Classroom.</em></h1>
 <p class="hero-lead">Adventure, teamwork, good coffee and the occasional ridiculous costume.</p>
 <p class="hero-description">Teaching is a big part of who I am. But the experiences I have away from school are often the ones that shape what I bring back into it.</p>
+<a class="hero-anchor" href="#rugby" style="margin-left:22px">Rugby &amp; community <span aria-hidden="true">↘</span></a>
 <a class="hero-anchor" href="#my-story">Get to know me <span aria-hidden="true">↘</span></a>
 </div>
 <div class="hero-visual">
@@ -203,17 +240,62 @@ footer a{text-decoration:none;color:#d8c392}
 </div>
 </div>
 </section>
-<section class="chapter sport-chapter section-wrap" id="teamwork">
-<div class="section-marker">Sport &amp; camaraderie <span>03</span></div>
-<div class="chapter-head"><h2>Part of<br/><em>the team.</em></h2><p>Rugby and other team sports have shaped how I think about leadership: show up, work hard, support the people around you, and enjoy the experience together.</p></div>
-<p style="margin:0 0 30px"><a href="rugby.html" class="closing-button">Read my rugby &amp; touch rugby story →</a></p>
-<figure class="gallery-card panoramic">
-<button aria-label="Enlarge rugby team photograph" class="image-button" data-alt="An adult rugby team in matching striped shirts posing together on a playing field" data-caption="Teamwork, friendships and shared effort." data-full="assets/rugby-team.webp" type="button">
-<img alt="An adult rugby team in matching striped shirts posing together on a playing field" data-photo="assets/rugby-team.webp" height="430" loading="lazy" src="data:," width="915"/>
-<span aria-hidden="true" class="expand-symbol">↗</span>
-</button>
-<figcaption><span>Beyond the final whistle</span><strong>Teamwork, friendships and shared effort.</strong></figcaption>
-</figure>
+<section class="chapter rugby-chapter" id="rugby" aria-labelledby="rugby-title">
+<div class="section-wrap">
+  <div class="section-marker">Rugby &amp; community <span>03</span></div>
+  <div class="chapter-head">
+    <h2 id="rugby-title">Rugby can take<br/><em>you anywhere.</em></h2>
+    <p>A game that introduced me to the world, taught me to be part of a team and continues to shape how I think about leadership, belonging and giving back.</p>
+  </div>
+  <div class="rugby-lead-layout">
+    <div class="rugby-story-text">
+      <p class="rugby-opening">I started playing rugby at twelve in Brantford, Ontario. By eighteen, it had become much more than a school sport.</p>
+      <p>At a provincial rugby dinner, I heard a Canadian international talk about all the places the game had taken him. His message was simple: <strong>rugby can take you anywhere.</strong> For a teenager who had barely travelled, those words stayed with me.</p>
+      <p>They turned out to be true. I played throughout university alongside varsity American football, and later found teams and lifelong friendships in Canada, the Bahamas, England, Switzerland and beyond. Rugby took me to pitches across Europe, the Americas and Africa, and even into a match in New Zealand. I still return to play for Millwall Rugby Club in East London.</p>
+    </div>
+    <figure class="rugby-lead-photo">
+      <a href="assets/rugby/club-team.webp" target="_blank" rel="noopener" aria-label="Open photograph of a rugby club team">
+        <img src="assets/rugby/club-team.webp" alt="Rugby club team gathered on a field with a bulldog mascot and city skyline" loading="lazy"/>
+      </a>
+      <figcaption>A community built around the game</figcaption>
+    </figure>
+  </div>
+  <div class="rugby-principles">
+    <div><span>01 / Service</span><h3>Do the hard yards.</h3><p>The unseen work matters because every teammate depends on someone being willing to do it.</p></div>
+    <div><span>02 / Trust</span><h3>Earn your place.</h3><p>Being named Players' Player meant more to me than an individual accolade: it came from the people beside me.</p></div>
+    <div><span>03 / Leadership</span><h3>Put the team first.</h3><p>Captaining clubs taught me that dependability and example matter more than a title.</p></div>
+    <div><span>04 / Responsibility</span><h3>Give something back.</h3><p>Coaches gave their time to help me grow. I want to create those opportunities for others.</p></div>
+  </div>
+  <div class="rugby-touch">
+    <figure>
+      <a href="assets/rugby/mountain-ground.webp" target="_blank" rel="noopener" aria-label="Open mountain sports ground photo">
+        <img src="assets/rugby/mountain-ground.webp" loading="lazy" alt="At an Alpine sports ground, an adult in rugby kit with a bulldog and child nearby"/>
+      </a>
+      <figcaption>Making rugby accessible across ages</figcaption>
+    </figure>
+    <div>
+      <span class="rugby-eyebrow">Touch rugby &amp; school community</span>
+      <h3>From rugby to <em>opportunity for everyone.</em></h3>
+      <p>Contact rugby isn't a standard sport for young pupils in Switzerland. Rather than leave the game out, I adapted what I love about it through touch rugby: a non-contact format built around movement, teamwork, decision-making and inclusion.</p>
+      <p>At Institut auf dem Rosenberg, I've coached touch rugby from children as young as six or seven through to eighteen-year-olds in the senior school sports programme. Beyond school, I'm president of St. Gallen Touch Rugby Club and continue to play socially each week.</p>
+      <p>Coaching gives pupils opportunities to find their voice, cope with setbacks, support one another and feel that they belong. Those lessons carry far beyond the pitch.</p>
+    </div>
+  </div>
+  <div class="rugby-gallery-title">
+    <h3>Different places. <em>The same spirit.</em></h3>
+    <p>More than matches and memories, rugby has given me a way to arrive somewhere new, find a community and contribute.</p>
+  </div>
+  <div class="rugby-photo-grid">
+    <figure class="rugby-wide"><a href="assets/rugby/snow-match.webp" target="_blank" rel="noopener"><img src="assets/rugby/snow-match.webp" loading="lazy" alt="Rugby players competing during a heavy snow shower"/></a><figcaption>Every pitch, every condition</figcaption></figure>
+    <figure><a href="assets/rugby/match-africa.webp" target="_blank" rel="noopener"><img src="assets/rugby/match-africa.webp" loading="lazy" alt="Rugby match with teams contesting possession and spectators watching"/></a><figcaption>Connections across borders</figcaption></figure>
+    <figure><a href="assets/rugby/hard-yards.webp" target="_blank" rel="noopener"><img src="assets/rugby/hard-yards.webp" loading="lazy" alt="Rugby player being tackled while holding the ball"/></a><figcaption>The hard yards</figcaption></figure>
+    <figure><a href="assets/rugby/kyadondo.webp" target="_blank" rel="noopener"><img src="assets/rugby/kyadondo.webp" loading="lazy" alt="Sign for Kyadondo Rugby Club"/></a><figcaption>Kyadondo Rugby Club</figcaption></figure>
+    <figure><a href="assets/rugby/scrum.webp" target="_blank" rel="noopener"><img src="assets/rugby/scrum.webp" loading="lazy" alt="Two rugby teams forming a scrum on the pitch"/></a><figcaption>Shared effort</figcaption></figure>
+    <figure><a href="assets/rugby/st-gallen-dog.webp" target="_blank" rel="noopener"><img src="assets/rugby/st-gallen-dog.webp" loading="lazy" alt="Rugby player in a St. Gallen jersey holding a bulldog"/></a><figcaption>Rugby life in St. Gallen</figcaption></figure>
+    <figure><a href="assets/rugby/rugby-dog.webp" target="_blank" rel="noopener"><img src="assets/rugby/rugby-dog.webp" loading="lazy" alt="Bulldog with a rugby ball on a grass field"/></a><figcaption>Even the team mascots belong</figcaption></figure>
+  </div>
+  <p class="rugby-closing-thought">The strongest school communities are built like the strongest teams: through relationships, shared effort, genuine care and a willingness to do the work that needs doing.</p>
+</div>
 </section>
 <section class="chapter coffee-chapter" id="coffee">
 <div class="section-wrap">
