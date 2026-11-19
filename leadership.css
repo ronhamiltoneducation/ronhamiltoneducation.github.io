@@ -115,6 +115,21 @@ p{margin-bottom:18px}
 .site-footer div{display:flex;flex-wrap:wrap;gap:20px}
 .site-footer a{color:#d1d8df;text-decoration:none}
 .site-footer a:hover{text-decoration:underline}
+/* Restorative practice: a focused bridge between pastoral care and curriculum leadership. */
+.restorative-section{background:#eef1ef;padding:102px 0 112px}
+.restorative-layout{display:grid;grid-template-columns:.88fr 1.12fr;gap:85px;align-items:start}
+.restorative-heading h2{font-size:clamp(2.55rem,4.55vw,4.7rem);margin:16px 0 0}
+.restorative-heading h2 em{color:#957849}
+.restorative-copy{color:#4b5965;font-size:.97rem;line-height:1.87}
+.restorative-copy p{margin-bottom:18px}
+.restorative-copy .restorative-lead{font:400 clamp(1.32rem,2vw,1.65rem)/1.45 Georgia,serif;color:var(--navy);margin-bottom:24px}
+.restorative-questions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:29px;margin-top:48px}
+.restorative-questions>div{border-top:2px solid var(--gold);padding:17px 0 0}
+.restorative-questions span{display:block;color:#8d7448;font-size:.65rem;font-weight:750;letter-spacing:.13em;margin-bottom:8px}
+.restorative-questions strong{display:block;font:400 1.48rem/1.25 Georgia,serif;color:var(--navy);margin-bottom:7px}
+.restorative-questions p{font-size:.88rem;color:#62707b;line-height:1.6;margin:0}
+@media(max-width:900px){.restorative-section{padding:76px 0 86px}.restorative-layout{grid-template-columns:1fr;gap:28px}.restorative-questions{margin-top:40px}}
+@media(max-width:600px){.restorative-section{padding:64px 0 74px}.restorative-questions{grid-template-columns:1fr;gap:20px}.restorative-questions>div{padding-top:13px}.restorative-heading h2{font-size:clamp(2.3rem,9.5vw,3.35rem)}}
 @media(max-width:1120px){.header-note{display:none}.site-header nav{gap:18px}.hero-copy{padding-right:38px}.wellbeing-grid{gap:60px}}
 @media(max-width:900px){.hero{grid-template-columns:1fr}.hero-copy{padding:80px 32px 96px}.hero-media{min-height:350px;max-height:490px}.hero-index{top:auto;bottom:354px;left:32px}.hero-media img{height:420px}.intro-grid,.story-grid,.story-grid.reverse,.case-heading,.advocacy-layout,.wellbeing-grid,.closing-grid{grid-template-columns:1fr;gap:36px}.story-visual{max-width:670px}.image-frame{aspect-ratio:5/3}.case-aside{max-width:670px}.principles,.wellbeing-notes{grid-template-columns:repeat(2,minmax(0,1fr))}.story-block{padding:76px 0 84px}.section{padding-top:76px;padding-bottom:86px}.intro-grid h2,.case-heading h2{margin-bottom:0}.case-summary{max-width:740px}.math-visual{max-width:650px}.evidence-grid{margin-top:54px}.hero-photo-note{left:28px}.story-grid{align-items:start}}
 @media(max-width:600px){.header-inner{padding:17px 20px;display:block;text-align:center}.brand{margin:0 auto 15px;width:42px;height:42px}.site-header nav{gap:7px 17px;justify-content:center}.site-header nav a{font-size:.73rem}.hero-copy{padding:65px 22px 77px}.hero h1{font-size:clamp(3.05rem,12vw,4.6rem)}.hero-media{min-height:255px;max-height:310px}.hero-media img{height:310px}.hero-index{display:none}.hero-photo-note{font-size:1.15rem;bottom:24px;right:22px}.section,.content-wrap{padding-left:22px;padding-right:22px}.section-label{align-items:start;font-size:.64rem;letter-spacing:.13em}.section-label span+span{text-align:right;font-size:.61rem}.intro-grid,.story-grid,.case-heading,.advocacy-layout,.wellbeing-grid,.closing-grid{gap:30px}h2{font-size:clamp(2.35rem,10vw,3.3rem)}.principles,.evidence-grid,.wellbeing-notes{grid-template-columns:1fr;gap:25px}.principles{margin-top:47px}.story-block{padding:64px 0 74px}.story-copy .story-lead{font-size:1.24rem}.case-aside{padding:33px 28px}.case-aside blockquote{font-size:2.05rem}.image-note{display:block;padding:23px}.image-note span{display:block;margin-bottom:8px}.math-caption{padding:24px}.wellbeing-lead{font-size:1.27rem}.wellbeing-notes{margin-top:42px}.site-footer{display:block;padding:26px 22px}.site-footer div{margin-top:13px;gap:13px 18px}.closing-links{display:grid;grid-template-columns:1fr}.action-link{width:100%}}
